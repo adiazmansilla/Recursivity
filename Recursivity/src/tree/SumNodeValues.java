@@ -96,7 +96,7 @@ public class SumNodeValues {
 	static int level = 1;
 	static int sum = 0;
 	/**
-	 * Implements sum on nodes in the same level n
+	 * Implements sum of nodes in the same level n
 	 * @param root
 	 * @param n
 	 * @return
