@@ -3,6 +3,11 @@ package fibonacci;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * 
+ * @author albertodiaz
+ *
+ */
 public class Fibonacci {
 
 	public static void main(String[] args) {
