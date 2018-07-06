@@ -12,7 +12,7 @@ public class SumNodeValues {
 	}
 	
 	/**
-	 * returns a tree with nodes an levels.
+	 * returns a tree with nodes and levels.
 	 * @return
 	 */
 	private static Node getNodes() {
@@ -105,7 +105,7 @@ public class SumNodeValues {
 		if (root != null && n == 0) {
 			return root.getValue();
 		}
-		if ( root.getChildren() != null) {
+		if (root!=null && root.getChildren() != null) {
 			for (Node node : root.getChildren()) {
 				if (level < n) {
 					level++;
